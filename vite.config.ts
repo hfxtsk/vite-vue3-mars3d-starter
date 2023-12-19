@@ -8,6 +8,7 @@ import AutoImport from 'unplugin-auto-import/vite'
 import VueMacros from 'unplugin-vue-macros/vite'
 import VueRouter from 'unplugin-vue-router/vite'
 import { VueRouterAutoImports } from 'unplugin-vue-router'
+import VueDevTools from 'vite-plugin-vue-devtools'
 
 export default defineConfig({
   resolve: {
@@ -55,6 +56,8 @@ export default defineConfig({
       dts: true,
     }),
 
+    // https://www.npmjs.com/package/vite-plugin-vue-devtools?activeTab=readme
+    VueDevTools(),
   ],
 
   // https://github.com/vitest-dev/vitest
