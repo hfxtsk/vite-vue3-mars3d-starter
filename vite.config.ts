@@ -9,6 +9,7 @@ import VueMacros from 'unplugin-vue-macros/vite'
 import VueRouter from 'unplugin-vue-router/vite'
 import { VueRouterAutoImports } from 'unplugin-vue-router'
 import VueDevTools from 'vite-plugin-vue-devtools'
+import { mars3dPlugin } from 'vite-plugin-earth'
 
 export default defineConfig({
   resolve: {
@@ -58,6 +59,9 @@ export default defineConfig({
 
     // https://www.npmjs.com/package/vite-plugin-vue-devtools?activeTab=readme
     VueDevTools(),
+
+    // https://www.npmjs.com/package/vite-plugin-earth
+    mars3dPlugin(),
   ],
 
   // https://github.com/vitest-dev/vitest
