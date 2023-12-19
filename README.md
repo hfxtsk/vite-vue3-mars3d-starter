@@ -1,14 +1,12 @@
-<p align='center'>
-  <img src='https://user-images.githubusercontent.com/11247099/111864893-a457fd00-899e-11eb-9f05-f4b88987541d.png' alt='Vitesse - Opinionated Vite Starter Template' width='600'/>
-</p>
+<h1 align='center'>
+vite-vue3-mars3d-starter
+</h1>
 
-<h6 align='center'>
-<a href="https://vitesse-lite.netlify.app/">Live Demo</a>
-</h6>
+<h2>
+<img alt="Npm version" src="https://img.shields.io/npm/v/mars3d.svg?style=flat&amp;logo=npm&amp;label=mars3d" data-v-ee0caf6c="">
 
-<h5 align='center'>
-<b>Lightweight version of <a href="https://github.com/antfu/vitesse">Vitesse</a></b>
-</h5>
+<img alt="Npm version" src="https://img.shields.io/npm/v/mars3d-cesium.svg?style=flat&amp;logo=npm&amp;label=cesium" data-v-ee0caf6c="">
+</h2>
 
 <br>
 
@@ -19,15 +17,11 @@
 
 ## Features
 
-- ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite 3](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [ESBuild](https://github.com/evanw/esbuild) - born with fastness
+- ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite 5](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [ESBuild](https://github.com/evanw/esbuild) - born with fastness
 
 - 🗂 [File based routing](./src/pages)
 
 - 📦 [Components auto importing](./src/components)
-
-- 🎨 [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine.
-
-- 😃 Use icons from any icon sets in [Pure CSS](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
 
 - 🔥 Use the [new `<script setup>` style](https://github.com/vuejs/rfcs/pull/227)
 
@@ -35,30 +29,13 @@
 
 - 🦾 TypeScript, of course
 
-- ☁️ Deploy on Netlify, zero-config
+- 🔥 Use [Mars3D](http://mars3d.cn/) WebGL-based 3D framework
+
+- ✅ Use [vite-plugin-earth](https://www.npmjs.com/package/vite-plugin-earth) Easily set up a Cesium & Mars3D project in Vite.
 
 <br>
 
-See [Vitesse](https://github.com/antfu/vitesse) for full featureset.
-
-## Dropped Features from [Vitesse](https://github.com/antfu/vitesse)
-
-- ~~i18n~~
-- ~~Layouts~~
-- ~~SSG~~
-- ~~PWA~~
-- ~~Markdown~~
-
 ## Pre-packed
-
-### UI Frameworks
-
-- [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine.
-
-### Icons
-
-- [Iconify](https://iconify.design) - use icons from any icon sets [🔍Icônes](https://icones.netlify.app/)
-- [Pure CSS Icons via UnoCSS](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
 
 ### Plugins
 
@@ -70,17 +47,3 @@ See [Vitesse](https://github.com/antfu/vitesse) for full featureset.
 - [VueUse](https://github.com/antfu/vueuse) - collection of useful composition APIs
 
 ## Try it now!
-
-### GitHub Template
-
-[Create a repo from this template on GitHub](https://github.com/antfu/vitesse-lite/generate).
-
-### Clone to local
-
-If you prefer to do it manually with the cleaner git history
-
-```bash
-npx degit antfu/vitesse-lite my-vitesse-app
-cd my-vitesse-app
-pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
-```
