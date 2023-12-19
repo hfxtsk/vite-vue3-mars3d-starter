@@ -2,6 +2,7 @@ import { createApp } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router/auto'
 import App from './App.vue'
 
+import './styles/reset.css'
 import './styles/main.css'
 
 const app = createApp(App)
